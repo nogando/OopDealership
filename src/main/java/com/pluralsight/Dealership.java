@@ -13,10 +13,10 @@ public class Dealership {
 
 
     //Constructor method ----------
-    public Dealership(String address, String name, String phone) {
-        this.address = address;
-        this.inventory = new ArrayList<>();
+    public Dealership(String name, String address, String phone) {
         this.name = name;
+        this.inventory = new ArrayList<>();
+        this.address = address;
         this.phone = phone;
     }
 

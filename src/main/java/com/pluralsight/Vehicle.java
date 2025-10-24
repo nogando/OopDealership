@@ -16,7 +16,7 @@ public class Vehicle {
 
     //Constructor method ----------
 
-    public Vehicle(String color, String make, String model, int odometer, double price, String vehicleType, int vin, int year) {
+    public Vehicle(int vin, int year, String make, String model, String vehicleType, String color, int odometer, double price) {
         this.color = color;
         this.make = make;
         this.model = model;
